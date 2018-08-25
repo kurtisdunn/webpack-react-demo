@@ -1,7 +1,6 @@
-import './main.scss';
+import './index.scss';
 import React from 'react';
 import Header from '../components/header';
-import Footer from '../components/footer';
 
 export default class Mainlayout extends React.Component {
   constructor(props) {
@@ -11,11 +10,10 @@ export default class Mainlayout extends React.Component {
   render() {
     return (
       <div>
-        <Header />
-        <div>
+        {/* <Header /> */}
+        <div className="container">
          { this.props.children }
         </div>
-        <Footer />
       </div>
     );
   }

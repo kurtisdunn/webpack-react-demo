@@ -1,3 +1,30 @@
 .home{
-  min-height: 100vh
+  .home-center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 430px;
+    height: 300px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+
+    h1{
+      font-size: 3.5rem;
+
+    }
+    svg{
+      height: 120px;
+      width: 120px;
+    }
+    p{
+      margin-bottom: 0px;
+      line-height: 1.5;
+      font-size: 22px;
+      font-weight: 200
+    }
+  }
 }

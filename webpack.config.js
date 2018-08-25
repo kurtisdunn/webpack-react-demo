@@ -48,7 +48,7 @@ const standardConfig = {
     ]
   },
   devServer: {
-    port: 8000,
+    port: 8001,
     contentBase: 'src/',
     inline: true,
     disableHostCheck: true,
