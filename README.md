@@ -17,7 +17,7 @@ This site is hosted on [Github pages](https://github.com/kurtisdunn/kurtisdunn.g
 ## Install it
 Create a minified production version.
 ```bash
-$ npm git clone https://github.com/kurtisdunn/the-cv.git
+$ git clone https://github.com/kurtisdunn/the-cv.git
 $ cd the-cv
 $ npm install
 ```
