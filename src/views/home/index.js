@@ -1,13 +1,8 @@
 import React from 'react';
 import styles from './index.scss';
-import config from '../../utils/config';
 
-import GetPortfolio from '../../api/portfolio/get';
+import Icon from '../../components/icon';
 
-import About from '../../components/about';
-import FullscreenJumbotron from '../../components/jumbotron/fullscreen';
-import Gallery from '../../components/gallery';
-import Modal from '../../components/modal';
 
 const $ = window.$;
 
@@ -23,15 +18,16 @@ export default class Home extends React.Component {
 
   componentDidMount(){
     const that = this;
-    GetPortfolio().then(r => that.setState({images: r}));
   }
   render() {
     return (
       <div className="home">
-
-        <FullscreenJumbotron />
-                <About />
-        { this.state.images ? <Gallery tagLinks={tagsToFilter} images={this.state.images}/> : null }
+        <div className={'home-center'}>
+          <Icon type={'laptop-code'} />
+          <h1>Kurtis J. Dunn</h1>
+          <p>Full Stack Developer in the Mid North Coast.<br />
+          Let's build something together.</p>
+        </div>
       </div>
     );
   }
