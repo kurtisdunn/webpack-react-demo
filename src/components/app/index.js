@@ -10,13 +10,6 @@ import Layout from '../../layouts';
 
 
 
-ReactDOM.render(
-  <Router>
-    <Layout>
-      <Switch>
-        <Route exact path="/" component={ Home } />
-      </Switch>
-    </Layout>
-  </Router>,
+ReactDOM.render(  <Layout />,
   document.getElementById('root')
 );

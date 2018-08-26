@@ -1,5 +1,17 @@
 .btn-cyan{
   background-color: #49a078;
   color:#fff;
-  font-weight: 200
+  font-weight: 200;
+  transition: all .25s ease;
+  &:hover,  &:focus{
+    background-color: #216869;
+  }
+}
+.btn-bit-bigger{
+  font-size: 1.2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  border-radius: .25rem;
 }

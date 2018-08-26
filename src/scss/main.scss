@@ -2,12 +2,12 @@
 @import 'typography';
 
 html{
-  min-height: 100%; /* enforce height */
+  // min-height: 100%; /* enforce height */
   background: rgb(61,96,94);
-  background: linear-gradient(23deg, rgba(61,96,94,1) 0%, rgba(95,175,146,1) 47%, rgba(117,183,179,1) 100%);
+
 }
 body{
-  height: 100vh; /* set viewport constraint */
+  // height: 100vh; /* set viewport constraint */
   background-color: transparent;
 }
 

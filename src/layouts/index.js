@@ -1,6 +1,9 @@
 import './index.scss';
 import React from 'react';
-import Header from '../components/header';
+
+import About from '../views/about';
+import Home from '../views/home';
+import Header from '../views/header';
 
 export default class Mainlayout extends React.Component {
   constructor(props) {
@@ -10,10 +13,9 @@ export default class Mainlayout extends React.Component {
   render() {
     return (
       <div>
-        {/* <Header /> */}
-        <div className="container">
-         { this.props.children }
-        </div>
+        <Header />
+        <Home />
+        <About />
       </div>
     );
   }
