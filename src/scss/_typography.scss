@@ -1,25 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
 body{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
-      color: #606060!important;
-
+  color: #606060!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 body, li, address {
     line-height: 28px;
+        font-size: 22px;
 }
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     // color: #404040;
-    font-weight: 700;
-    letter-spacing: -0.5px;
+    // font-weight: 700;
+    letter-spacing: 1px;
     margin-bottom: 10px;
-    font-family: 'Raleway';
+    font-family: 'Bree Serif';
+    text-shadow: 1px 1px #204341;
 }
 h1{
   // color:#fff;

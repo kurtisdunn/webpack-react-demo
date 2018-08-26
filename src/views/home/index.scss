@@ -1,3 +1,109 @@
-.home{
-  min-height: 100vh
+#home{
+  height: 100vh;
+  background: linear-gradient(45deg, #1f2421 0%, #216869 35%, #9cc5a1 100%);
+  .home-center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 530px;
+    height: 300px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+
+    h1{
+      font-size: 3.5rem;
+      display: block;
+      margin-top: 0.27em;
+      margin-bottom: 0.17em;
+      font-weight: bold;
+
+    }
+    svg{
+      height: 120px;
+      width: 120px;
+      fill: #fff!important;
+      -webkit-filter: drop-shadow( 1px 1px 0px #204341 );
+      filter: drop-shadow( 1px 1px 0px #204341 );
+
+    }
+    p{
+      margin-bottom: 0px;
+      line-height: 1.5;
+      font-size: 22px;
+      font-weight: 200
+    }
+  }
+}
+
+
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  #home{
+    max-width: 1200px;
+    .home-center {
+      max-width: 100%;
+    }
+  }
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  #home{
+    max-width: 100%;
+    .home-center {
+      max-width: 100%;
+    }
+  }
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 824.98px) {
+  #home{
+    max-width: 100%;
+    .home-center {
+
+      max-width: 100%;
+      svg{
+        margin-top: 0.27em;
+        height: 70px!important;
+        width: 70px!important;
+      }
+      h1{
+        font-size: 2.7rem!important;
+      }
+      p{
+        font-size: 1.2rem!important;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 411.98px) {
+  #home{
+    max-width: 100%;
+
+    .home-center {
+      max-width: 100%;
+      svg{
+        height: 54px!important;
+        width: 54px!important;
+      }
+      h1{
+        font-size: 2.5rem!important;
+      }
+      p{
+        font-size: 1rem!important;
+      }
+    }
+  }
+
+
 }

@@ -1,0 +1,23 @@
+header{
+  display: none;
+  position: absolute;
+  min-width: 100%;
+  .navbar-brand{
+    svg{
+      height: 40px;
+      width: 40px;
+      fill: #fff!important;
+    }
+  }
+  .nav-link{
+    color: #fff!important;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    transition: all .25s ease;
+    text-decoration: none;
+    font-weight: 200;
+    &:hover, &:focus{
+      text-decoration: underline;
+    }
+  }
+}

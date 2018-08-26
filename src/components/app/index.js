@@ -5,14 +5,11 @@ import 'bootstrap';
 import { HashRouter as Router, Route, Switch, IndexRoute, hashHistory } from 'react-router-dom';
 
 import Home from '../../views/home';
+import Layout from '../../layouts';
 
-ReactDOM.render(
-  <Router>
-    <Mainlayout>
-      <Switch>
-        <Route exact path="/" component={ Home } />
-      </Switch>
-    </Mainlayout>
-  </Router>,
+
+
+
+ReactDOM.render(  <Layout />,
   document.getElementById('root')
 );

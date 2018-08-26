@@ -2,18 +2,13 @@
 @import 'typography';
 
 html{
-  height: 100vh; /* set viewport constraint */
-  min-height: 100%; /* enforce height */
+  // min-height: 100%; /* enforce height */
+  background: rgb(61,96,94);
+
 }
 body{
-  // background: rgba(24, 24, 24, 1.000);
-  height: 100%;
-}
-.space30 {
-    height: 30px;
-}
-.color-dark, .list-dark>li:before, .list-dark i {
-    color: #404040 !important;
+  // height: 100vh; /* set viewport constraint */
+  background-color: transparent;
 }
 
 input:focus, button:focus {outline:0;}
