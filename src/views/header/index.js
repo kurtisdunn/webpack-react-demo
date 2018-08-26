@@ -8,6 +8,7 @@ const $ = window.$;
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
+    this.scrollTo = this.scrollTo.bind(this);
   }
   componentDidMount(){
     console.log('componentDidMount');
@@ -16,6 +17,12 @@ export default class Header extends React.Component {
       $('header').css('display', 'block');
     }, 700);
   }
+  scrollTo(elem) {
+    $('html, body').animate({
+      scrollTop: $(`#${elem}`).offset().top },
+    700);
+  }
+
   render() {
     return (
       <header>
@@ -25,13 +32,13 @@ export default class Header extends React.Component {
               <div className="text-center" id="navbarsExample11">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                      <a className="nav-link" href="#about">About</a>
+                      <a className="nav-link" onClick={() => this.scrollTo('about') }>About</a>
                   </li>
                   <li className="nav-item">
-                      <a className="nav-link" href="#work">Work</a>
+                      <a className="nav-link" onClick={() => this.scrollTo('recent') }>Work</a>
                   </li>
                   <li className="nav-item">
-                      <a className="nav-link" href="#contact">Contact</a>
+                      <a className="nav-link"  onClick={() => this.scrollTo('contact') }>Contact</a>
                   </li>
               </ul>
             </div>
