@@ -1,4 +1,51 @@
 #about{
-  height: 100vh;
-  background: #dce1de
+  min-height: 100vh;
+  background: #dce1de;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  overflow: visible;
+  .col-8{
+    padding-right: 6rem;
+  }
+
+  h3{
+        margin-top: 2rem;
+  }
+  p{
+    font-weight: 200
+  }
+  img{
+    width: 10rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .card-body{
+    border-radius: .25rem;
+    padding: 1rem;
+    background-color: #216869;
+    color: #fff;
+
+    h3{
+      margin-top: 0rem;
+    }
+
+    p{
+      font-size: 1rem;
+      a{
+        color:#fff;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  #about{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 }

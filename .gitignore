@@ -8,3 +8,4 @@ coverage
 src/images
 package-lock.json
 temp.js
+tmp
