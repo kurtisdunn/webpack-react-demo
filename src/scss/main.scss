@@ -2,7 +2,7 @@
 @import 'typography';
 
 html{
-  // min-height: 100%; /* enforce height */
+  overflow-x: auto;
   background: rgb(61,96,94);
 
 }
@@ -15,7 +15,7 @@ input:focus, button:focus {outline:0;}
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   .container{
-      max-width: 95%;
+      max-width: 100%;
   }
 }
 
@@ -36,6 +36,6 @@ input:focus, button:focus {outline:0;}
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
   .container{
-    // width: 1200px
+    max-width: 1200px
   }
 }

@@ -5,11 +5,12 @@ body{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: #606060!important;
+  color: #1f2421!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 body, li, address {
+
     line-height: 28px;
         font-size: 22px;
 }
@@ -17,31 +18,32 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     // color: #404040;
     // font-weight: 700;
-    letter-spacing: 1px;
+    // letter-spacing: 1px;
     margin-bottom: 10px;
     font-family: 'Bree Serif';
-    text-shadow: 1px 1px #204341;
+    // text-shadow: 1px 1px #204341;
 }
 h1{
   // color:#fff;
-  font-size:2rem;
+  font-size:2.875rem;
   margin-bottom: 20px;
 }
 h2{
   // color:#fff;
-  font-size: 28px;
-  line-height: 38px;
-  margin-bottom: 20px;
+  font-size:2.875rem;
+  margin-bottom: 2rem;
 }
 h3 {
-    font-size: 22px;
-    line-height: 32px;
+  font-size: 1.875rem;
+  margin-bottom: 1rem;
 }
 h5 {
     font-size: 18px;
     line-height: 28px;
 }
-
+p{
+  line-height: 1.5;
+}
 a{
   // font-family: 'Montserrat', sans-serif;
   color: #9eb9d8;
