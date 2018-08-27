@@ -1,6 +1,6 @@
-# The CV.
+# webpack-react-demo
 
-Hi!  This is the source to my resume/cv project called **The CV**.
+Hi!  This is the source to **kurtisdunn.github.io**
 It is a single page application optimized for speed and accessibility. It was developed with Webpack, ReactJS, Bootstrap 4, and plain 'ol vanilla JavaScript.
 
 Linting with ESLint and minification with UglfyJS.
