@@ -23,7 +23,7 @@ export default class About extends React.Component {
           <div className="row">
             <div className="col-md-8">
               <h2>About Kurtis</h2>
-              <img className ="rounded-circle float-right" src="http://d2m4mr1mh7r6fk.cloudfront.net/thea.jpg" />
+              <img className ="rounded-circle float-right" src="https://s3.ap-southeast-2.amazonaws.com/images.kurtd/me3.jpg" />
               <p>I began my developers journey in the 90's when Javascript bust onto the scene thanks to Netscape. Many years later web development is still my passion, from project requirements, design, through QA and product launch. Now days I'm all about Micro-services and improving business process through a simplified functional approach..</p>
               <p>I have completed projects in WordPress, Symfony, Drupal, Laravel, Grails and other platforms. I also have experience using modern Javascript Frameworks like Node, Webpack, React, Skate and Express. Lately I've been looking at React Native, AWS DevOps, as well as building skills for Google Assistant.</p>
               <p>Currently, I am looking for my next Project or collaboration. </p>
@@ -35,8 +35,8 @@ export default class About extends React.Component {
               </p>
             </div>
             <div className="col-md-4">
-              <div class="card">
-                <div class="card-body">
+              <div className="card">
+                <div className="card-body">
                   <h3>About this site</h3>
                   <p>This site was designed to be a single page application and to run independently through the browser. It was developed with Webpack, React, Sass and plain 'ol vanilla Javascipt.</p>
                   <p>Fonts come from Google Fonts. Bree Serif (serif) for headings and Roboto (sans-serif) for body text.</p>
