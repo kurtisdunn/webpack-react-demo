@@ -25,7 +25,7 @@ export default class About extends React.Component {
               <h2>About Kurtis</h2>
               <img className ="rounded-circle float-right" src="https://s3.ap-southeast-2.amazonaws.com/images.kurtd/me3.jpg" />
               <p>I began my developers journey in the 90's when Javascript bust onto the scene thanks to Netscape. Many years later web development is still my passion, from project requirements, design, through QA and product launch. Now days I'm all about Micro-services and improving business process through a simplified functional approach..</p>
-              <p>I have completed projects in WordPress, Symfony, Drupal, Laravel, Grails and other platforms. I also have experience using modern Javascript Frameworks like Node, Webpack, React, Skate and Express. Lately I've been looking at React Native, AWS DevOps, as well as building skills for Google Assistant.</p>
+              <p>I have completed projects in WordPress, Symfony, Drupal, Laravel, Grails and other platforms. I also have experience using modern Javascript Frameworks like Node, Webpack, React, Skate and Express. Lately I've been looking at React Native, AWS DevOps, as well as building skills with GraphQL API Building.</p>
               <p>Currently, I am looking for my next Project or collaboration. </p>
               <h3>
                 What Else?
