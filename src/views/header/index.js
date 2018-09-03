@@ -33,9 +33,6 @@ export default class Header extends React.Component {
       <header>
         <nav className="navbar navbar-expand navbar-light fixed-top" data-toggle="affix">
           <div className="mx-auto d-sm-flex d-block flex-sm-nowrap">
-            {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button> */}
             <a className="navbar-brand" href="/"><Icon /></a>
             <div className="collapse navbar-collapse text-center" style={{float: 'right'}}>
               <ul className="navbar-nav">

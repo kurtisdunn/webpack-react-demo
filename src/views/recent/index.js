@@ -11,9 +11,6 @@ export default class Recent extends React.Component {
     super(props);
     this.state = {};
   }
-  componentDidMount(){
-    const that = this;
-  }
   render() {
     return (
       <section id="recent">

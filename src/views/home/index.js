@@ -11,9 +11,6 @@ export default class Home extends React.Component {
     super(props);
     this.state = {};
   }
-  componentDidMount(){
-    const that = this;
-  }
   render() {
     return (
       <section id="home">
