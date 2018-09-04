@@ -11,7 +11,6 @@ import Contact from '../views/contact';
 export default class Mainlayout extends React.Component {
   constructor(props) {
     super(props);
-    // console.log('Mainlayout extends React.Component: ', props);
   }
   render() {
     return (
