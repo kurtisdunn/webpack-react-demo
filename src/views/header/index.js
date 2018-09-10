@@ -11,15 +11,22 @@ export default class Header extends React.Component {
     this.scrollTo = this.scrollTo.bind(this);
   }
   componentDidMount(){
-    window.addEventListener('scroll', (e) =>{
-      console.log(e);
-    });
+    let lastScrollTop = 0;
+    window.addEventListener('scroll', function(){
+     var st = window.pageYOffset || document.documentElement.scrollTop;
+     if (st > lastScrollTop){
+        if(st >= 300){
+          $('.fixed-top').addClass('scrolled');
+        }
+     }
+     if(st <= 300){$('.fixed-top').removeClass('scrolled'); }
+     lastScrollTop = st <= 0 ? 0 : st;
+   }, false);
+  setTimeout(() => {
+    $('header').addClass('animated fadeInDown');
+    $('header').css('display', 'block');
+  }, 700);
 
-    $('html').css('overflow-x', 'auto');
-    setTimeout(() => {
-      $('header').addClass('animated fadeInDown');
-      $('header').css('display', 'block');
-    }, 700);
   }
   scrollTo(e, elem) {
     e.preventDefault();

@@ -1,10 +1,13 @@
+.btn{
+  font-family: Roboto!important;
+}
 .btn-cyan{
-  background-color: #49a078;
+  background-color: #49a078 !important;
   color:#fff;
-  font-weight: 200;
-  transition: all .25s ease;
+  font-weight: 200 !important;
+  transition: all .25s ease !important;
   &:hover,  &:focus{
-    background-color: #216869;
+    background-color: #216869 !important;
   }
 }
 .btn-bit-bigger{
@@ -14,4 +17,23 @@
   padding-left: 1.2rem;
   padding-right: 1.2rem;
   border-radius: .25rem;
+}
+.btn-recent{
+  display: block;
+  border-radius: 9999px !important;
+  background-color: #216869 !important;
+  color: #fff;
+  // font-size: .75rem !important;
+  cursor: pointer;
+  margin-right: .5rem !important;
+  text-align: center;
+  transition: all .25s ease;
+  &:hover{
+    background-color: #49a078!important;
+
+  }
+}
+
+.btn-recent-active{
+  background-color: #49a078!important;
 }
