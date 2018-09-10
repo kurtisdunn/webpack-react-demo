@@ -2,9 +2,8 @@
 @import 'typography';
 
 html{
-  overflow-x: auto;
+  overflow-x: auto !important;
   background: rgb(61,96,94);
-
 }
 body{
   // height: 100vh; /* set viewport constraint */

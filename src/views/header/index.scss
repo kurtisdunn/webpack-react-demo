@@ -2,6 +2,7 @@ header{
   display: none;
   position: absolute;
   min-width: 100%;
+  z-index: 1000;
   .navbar-brand{
     svg{
       height: 40px;
@@ -20,6 +21,10 @@ header{
       text-decoration: underline;
     }
   }
+  .scrolled{
+    background: #216869;
+    transition: all .300s ease;
+  }
 }
 @media (max-width: 411.98px) {
   .nav-item{
@@ -29,7 +34,4 @@ header{
       margin-right: .3rem;
     }
   }
-
-
-
 }

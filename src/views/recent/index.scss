@@ -1,4 +1,63 @@
 #recent{
-  height: 100vh;
-  background: #fff
+  padding-top: 4rem;
+  height: 100%;
+  min-height: 100vh;
+  background: #fff;
+  text-align: center;
+  h2{
+    margin-bottom: 3rem;
+  }
+  h4{
+    margin-bottom: 2rem;
+  }
+  .recent-titles{
+    display: inline-block;
+    margin-bottom: 3rem;
+    .btn{
+      display: inline-block
+    }
+  }
+  p{
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 200;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+  img{
+    max-width: 820px !important;
+  }
+  @media (max-width: 575.98px) {
+    img{
+      max-width: 90% !important;
+    }
+  }
+
+  // Small devices (landscape phones, less than 768px)
+  @media (max-width: 767.98px) {
+    .container{
+      max-width: 95%;
+    }
+    img{
+      max-width: 90% !important;
+    }
+  }
+
+  // Medium devices (tablets, less than 992px)
+  @media (max-width: 991.98px) {
+    img{
+      max-width: 90% !important;
+    }
+    .container{
+      max-width: 90%;
+    }
+  }
+
+  // Large devices (desktops, less than 1200px)
+  @media (min-width: 1199.98px) {
+    .container{
+      max-width: 820px !important;
+    }
+  }
+
 }
