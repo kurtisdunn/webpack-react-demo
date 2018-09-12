@@ -1,15 +1,28 @@
 #gits{
+  padding: 4rem 2rem;
   color: #fff;
   text-align:  center;
   min-height: 100vh;
   height:100%;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 
-  .gists{
+
+  .gists, .repos{
     text-align: left;
+
+    li{
+      padding-bottom: 1rem;
+      font-weight: 200;
+      a{
+        color:#489f77;
+        font-weight: 700;
+        &:hover{
+          color: white;
+          text-decoration: underline;
+        }
+      }
+    }
   }
   .repos{
-    text-align: left;
+    padding-bottom: 2rem;
   }
 }

@@ -1,4 +1,18 @@
 #contact{
-  height: 100vh;
-  background: #dce1de
+  position: relative;
+  padding: 4rem 2rem;
+  height: 100%;
+  min-height: 100vh;
+  background: #dce1de;
+  overflow-y: hidden;
+  z-index: 1;
+  svg{
+    position: absolute;
+    right: -200px;
+    height: 820px;
+    width: 820px;
+    bottom:-400px;
+    fill: rgba(175, 179, 176, 0.4)!important;
+    z-index: -1;
+  }
 }
