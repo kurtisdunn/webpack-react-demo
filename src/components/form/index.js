@@ -14,13 +14,13 @@ function emitResponse (elem, cmpnt) {
 
 function emitSuccess (elem, cmpnt) {
   return function (response) {
-    cmpnt.setState({ response: cmpnt.state.response, responseType: 'success' });
+    cmpnt.setState({ response: response.toString(), responseType: 'success' });
   };
 }
 
 function emitError (elem, cmpnt) {
   return function (response) {
-    cmpnt.setState({ response: cmpnt.state.response, responseType: 'danger' });
+    cmpnt.setState({ response: response.toString(), responseType: 'danger' });
   };
 }
 

@@ -36,7 +36,7 @@ export default class Gits extends React.Component {
           <div className={'row'}>
             <div className="col">
               { this.state.repos ? (<h4 className="animated bounceInRight">Latest Repositries</h4>) : null }
-              <ul className="gists mx-auto list-unstyled">
+              <ul className="repos mx-auto list-unstyled">
                 { this.state.repos ? this.state.repos.map((r, i) => (
                   <li className="animated bounceInLeft" key={i} style={{display: 'block'}}>
                     <a href={ r.html_url }>{ r.name }</a>
@@ -50,7 +50,7 @@ export default class Gits extends React.Component {
           <div className={'row'}>
             <div className="col">
             { this.state.gists ? (<h4 className="animated bounceInRight">Latest Gists</h4>) : null }
-            <ul className="repos list-unstyled">
+            <ul className="gists list-unstyled">
               { this.state.gists ? this.state.gists.map((r, i) => (
                 <li className="animated bounceInRight" key={i} style={{display: 'block'}}>
                   <a href={ r.url }>{ fileName(r.files) }</a>

@@ -1,19 +1,26 @@
+$default_animation: all 100ms ease-in-out;
+
 :root {
   --input-padding-x: .75rem;
   --input-padding-y: .75rem;
 }
 
 .form-control{
-  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-weight: inherit;
+  height: 48px;
+  padding: 0 15px;
+  font-size: 16px !important;
+  line-height: 48px;
   color: #333;
   width: 100%;
-  padding: 10px;
-  background-color: #f2f2f2;
-  border-radius: 2px;
-  border: none;
-  outline: none;
-  border: 1px solid transparent;
-  transition: all 100ms ease-in-out
+  background: rgba(255, 255, 255, 0.95);
+  transition: $default_animation;
+
+  &:focus{
+      color:#000;
+    }
 }
 
 .form-label-group {
@@ -28,10 +35,11 @@
 
 .form-label-group > label {
   position: absolute;
-  top: -5px;
+  top: -1px;
   left: 0;
   display: block;
   width: 100%;
+  font-size: 16px;
   margin-bottom: 0; /* Override default `<label>` margin */
   line-height: 1.5;
   color: #495057;
@@ -96,12 +104,12 @@
 }
 
 .form-control-feedback{
-  color: rgba(166, 36, 35, 1.000);
-  transition: all 100ms ease-in-out;
+  color: #d23737;
+  transition: $default_animation;
   font-size: 12px;
 }
 
 
 .has-danger > .form-control{
-  border: 1px solid rgba(166, 36, 35, 1.000);
+  border: 1px solid #d23737;
 }
