@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --host 0.0.0.0",
-    "build": "webpack -p"
+    "build": "webpack -p --min"
   },
   "repository": {
     "type": "git",

@@ -17,8 +17,8 @@ This site is hosted on [Github pages](https://github.com/kurtisdunn/kurtisdunn.g
 ## Install it
 Create a minified production version.
 ```bash
-$ git clone https://github.com/kurtisdunn/the-cv.git
-$ cd the-cv
+$ git clone https://github.com/kurtisdunn/webpack-react-demo.git
+$ cd webpack-react-demo
 $ npm install
 ```
 
